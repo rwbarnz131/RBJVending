@@ -42,6 +42,14 @@ img {
     object-fit: cover;
 }
 
+.logo {
+    width: 5em;
+    height: auto;
+    margin: 0 1em;
+    padding-top: 0.25em;
+
+}
+
 /* Navigation Styles */
 nav {
     position: sticky;
@@ -52,24 +60,20 @@ nav {
 nav ul {
 list-style-type: none;
 margin: 0em;
-padding: 0;
-background-color: #055cb3;
+padding: 0em;
+background-color: #d8d8d8;
 display: flex;
 justify-content: center;
 align-items: stretch;
-height: 3em;
+height: 3.5em;
 }
 
 nav li {
     display: flex;
     align-items: center;
-    color: rgb(255, 255, 255);
-    border-right: 2px solid rgba(0, 85, 255, 0.3);
+    color: rgb(235, 63, 63);
 }
 
-nav li:last-child {
-    border-right: none;
-}
 nav li a {
     display: block;
     color: inherit;
@@ -80,10 +84,55 @@ nav li a {
 
 nav li:hover {
     background-color: #ffffff44;
-    color: white;
+    color: rgb(255, 52, 52);
     
 }
 
 nav li a:hover {
-    color: white;
+    color: rgb(255, 52, 52);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #d8d8d8;
+    border-top: 10px solid #000000;
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 10em;
+    font-size: 3em;
+    color: #333;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    margin: 0 1em;
+}
+
+footer ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer ul a img {
+    width: 2em;
+    height: auto;
+    vertical-align: middle;
+}
+
+footer p {
+    margin: 0.5em 0;
+    font-size: 36px;
+}
+
+footer .number {
+    font-size: 48px;
 }
