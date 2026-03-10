@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -17,12 +17,25 @@
     </ul>
 </nav>
 <main>
-    <figure>
-        <img src="images/vending.jpg" alt="Vending Machine">
-    </figure>
-    
-    <h1>RBJ Vending</h1>
-    <p>Welcome to RBJ Vending! We are a small, locally-owned business dedicated to providing convenient access to quality snacks and refreshing beverages throughout the greater Southern Indiana community. Our diverse network of vending machines is strategically placed in schools, offices, retail locations, and public spaces to ensure you always have access to your favorite treats. We take pride in maintaining our machines to the highest standards and carefully curating our product selection based on customer feedback and preferences. Thank you for choosing RBJ Vending, we look forward to being your go-to source for snacks and beverages!</p>
+    <h1>Contact Us</h1>
+    <form action="contact.php" method="post" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
 </main>
 <footer>
     <ul>
@@ -37,4 +50,5 @@
     <p class="number">812.647.5735</p>
     <p>Copyright &copy; 2026 RBJ Vending LLC- All Rights Reserved.</p>
 </footer>
+</body>
 </html>
