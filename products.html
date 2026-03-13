@@ -1,65 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <a href="index.html"><img src="images/website logo.png" alt="RBJ Vending Logo" class="logo"></a>
-        <li><a href="products.html" class="border">Products</a></li>
-        <li><a href="contact.html" class="border">Contact Us</a></li>
-    </ul>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <a href="index.html"><img src="images/website logo.png" alt="RBJ Vending Logo" class="logo"></a>
+    <li><a href="products.html" class="border">Products</a></li>
+    <li><a href="contact.html" class="border">Contact Us</a></li>
+  </ul>
 </nav>
+
 <body>
-    <div class="slideshow-container">
 
-  <div class="mySlides fade">
-    <img src="images/lays.jpg" style="width:100%">
-    <div class="text">Lays Potato Chips</div>
+  <h1>Products</h1>
+  <div class="opening">
+
+    <div class="container">
+      <p>What satisfies your cravings? Salty? Sweet? Chips? Candy Bars?
+        Cookies? Crunchy? Soft? Pastries? Crackers? Protein Bars? We can
+        provide it!</p>
+    </div>
+
+    <div class="container">
+      <p>How bout drinks? Soda? Water? Protein? Juice? Tea? Energy Drinks? We
+        have these as well.</p>
+    </div>
+
   </div>
 
-  <div class="mySlides fade">
-    <img src="images/vending.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
+  <p>Healthy Options are also available. We will customize your location based
+    on your needs. <a id="product_contact" href="contact.html">Contact us</a> today for your consultation.</p>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="images/coke_logo.jpg" style="width:100%">
+      <div class="text">Coca-cola</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/pepsi logo.jpg" style="width:100%">
+      <div class="text">Pepsi</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/vending.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/vending.jpg" style="width:100%">
+      <div class="text">Caption 4</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
   </div>
 
-  <div class="mySlides fade">
-    <img src="images/vending.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-    
-
-<script src="js/slideshow.js"></script>
+  <script src="js/slideshow.js"></script>
 </body>
 <footer>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <a href="https://www.facebook.com/RBJVending" target="_blank"><img src="images/facebook-circular-logo.png" alt="facebook icon"></a>
-    </ul>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <a href="https://www.facebook.com/RBJVending" target="_blank"><img src="images/facebook-circular-logo.png"
+        alt="facebook icon"></a>
+  </ul>
 
-    <p>106 W Hefron Street, Washington, IN 47501, United States</p>
-    <p class="number">812.647.5735</p>
-    <p>Copyright &copy; 2026 RBJ Vending LLC- All Rights Reserved.</p>
+  <p>106 W Hefron Street, Washington, IN 47501, United States</p>
+  <p class="number">812.647.5735</p>
+  <p>Copyright &copy; 2026 RBJ Vending LLC- All Rights Reserved.</p>
 </footer>
+
 </html>

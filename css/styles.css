@@ -23,14 +23,14 @@ body {
 }
 
 h1 {
-    font-size: 4em;
-    margin-top: 2em;
+    font-size: 2.5em;
+    margin-top: 1em;
     margin-bottom: 2em;
     text-align: center;
 }
 
 p {
-    font-size: 2.4em;
+    font-size: 1.3em;
     margin-bottom: 1em;
     text-align: center;
     padding: 0em 20%;
@@ -38,11 +38,13 @@ p {
 
 nav ul {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.5em;
+    font-size: 1.2em;
 }
 
-
-
+#product_contact {
+    text-decoration: none;
+    color:rgb(255, 52, 52);
+}
 
 
 
@@ -82,7 +84,8 @@ img {
 nav {
     position: sticky;
     top: 0;
-    border-bottom: 10px solid #000000;
+    border-bottom: 4px solid #000000;
+    z-index: 1000;
 }
 
 nav ul {
@@ -126,8 +129,8 @@ footer {
     border-top: 10px solid #000000;
     text-align: center;
     padding: 2em 0 0;
-    margin-top: 5em;
-    font-size: 3em;
+    margin-top: 4em;
+    font-size: 1.2em;
     color: #333;
     position: relative;
     bottom: 0;
@@ -160,11 +163,11 @@ footer ul a img {
 
 footer p {
     margin: 0.5em 0;
-    font-size: 36px;
+    font-size: 1.2em;
 }
 
 footer .number {
-    font-size: 48px;
+    font-size: 32px;
 }
 
 
@@ -177,7 +180,7 @@ footer .number {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
+  max-width: 600px;
   position: relative;
   margin: auto;
 }
@@ -218,11 +221,11 @@ footer .number {
 .text {
   background-color: black;
   color: #f2f2f2;
-  font-size: 32px;
+  font-size: 18px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 98%;
+  width: 96%;
   text-align: center;
 }
 
@@ -253,4 +256,103 @@ footer .number {
   to {opacity: 1}
 }
 
-/* Contact form styles */
+
+
+
+/* Product styles */
+.opening {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    padding-bottom: 2em;
+
+}
+
+.container {
+    text-align: center;
+    padding: 0;
+    width: 30%;
+    margin: 0;
+
+}
+
+.opening p {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+/* contact page */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    padding-bottom: 2em;
+}
+
+.contact_container{
+    padding: 0;
+    width: 50%;
+    margin: 0;
+}
+
+#one {
+    width: 30%;
+}
+
+#two {
+    width: 50%;
+}
+
+.contact_form {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.contact_form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact_form label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+    text-align: left;
+}
+
+.contact_form input,
+.contact_form textarea {
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    resize: vertical;
+}
+
+.contact_form button[type="submit"] {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.8em;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contact_form button[type="submit"]:hover {
+    background: #c0392b;
+}

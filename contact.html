@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <a href="index.html"><img src="images/website logo.png" alt="RBJ Vending Logo" class="logo"></a>
-        <li><a href="products.html" class="border">Products</a></li>
-        <li><a href="contact.html" class="border">Contact Us</a></li>
-    </ul>
-</nav>
-<main>
-    <h1>Contact Us</h1>
-    <div class="contact_form">
-        <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="1bd297ae-fade-44e0-9733-9e535cd6f8d2">
-            <input type="text" name="name" required>
-            <input type="email" name="email" required>
-            <input type="tel" name="phone" required>
-            <input type="text" name="location" required>
-            <textarea name="message" required></textarea>
-            <button type="submit">Submit Form</button>
-        </form>
-    </div>
-</main>
-<footer>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <a href="https://www.facebook.com/RBJVending" target="_blank"><img src="images/facebook-circular-logo.png" alt="facebook icon"></a>
-    </ul>
 
-    <p>106 W Hefron Street, Washington, IN 47501, United States</p>
-    <p class="number">812.647.5735</p>
-    <p>Copyright &copy; 2026 RBJ Vending LLC- All Rights Reserved.</p>
-</footer>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <a href="index.html"><img src="images/website logo.png" alt="RBJ Vending Logo" class="logo"></a>
+            <li><a href="products.html" class="border">Products</a></li>
+            <li><a href="contact.html" class="border">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="contact">
+            <div id="one" class="contact_container">
+                <h1>Contact Us</h1>
+                <p>Have questions about our services? Want to schedule a consultation? Need to update your location
+                    information? We are here to help! Fill out the form below and we will get back to you as soon as
+                    possible.</p>
+            </div>
+            <div id="two" class="contact_container">
+                <div class="contact_form">
+                    <form action="https://formsubmit.co/4a0ff1c372e43f22752da0a9e68748af" method="POST">
+                        <input type="text" name="name" placeholder="Enter Name" required>
+                        <input type="email" name="email" placeholder="Enter Email" required>
+                        <input type="tel" name="phone" placeholder="Enter Phone Number" required>
+                        <input type="text" name="location" placeholder="Enter Location" required>
+                        <textarea name="message" placeholder="Enter Message" required></textarea>
+                        <button type="submit">Submit Form</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <a href="https://www.facebook.com/RBJVending" target="_blank"><img src="images/facebook-circular-logo.png"
+                    alt="facebook icon"></a>
+        </ul>
+
+        <p>106 W Hefron Street, Washington, IN 47501, United States</p>
+        <p class="number">812.647.5735</p>
+        <p>Copyright &copy; 2026 RBJ Vending LLC- All Rights Reserved.</p>
+    </footer>
 </body>
+
 </html>
