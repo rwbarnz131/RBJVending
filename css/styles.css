@@ -190,6 +190,14 @@ footer .number {
   display: none;
 }
 
+/* Style the images in the slideshow */
+.mySlides img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  background-color: white; /* Optional: adds white background for logos with transparency */
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -198,7 +206,7 @@ footer .number {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 36px;
   transition: 1.2s ease;
@@ -215,6 +223,7 @@ footer .number {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+    color: white;
 }
 
 /* Caption text */
@@ -232,8 +241,8 @@ footer .number {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 25px;
-  width: 25px;
+  height: 15px;
+  width: 15px;
   margin: 0 12px;
   background-color: #bbb;
   border-radius: 50%;
