@@ -111,7 +111,7 @@ nav {
     position: sticky;
     top: 0;
     border-bottom: 4px solid #000000;
-    z-index: 1000;
+    z-index: 10000;
 }
 
 nav ul {
@@ -298,6 +298,8 @@ footer .number {
     text-align: center;
 }
 
+
+
 /* Services Page */
 
 .service_container {
@@ -396,4 +398,223 @@ footer .number {
 
 .contact_form button[type="submit"]:hover {
     background: #c0392b;
+}
+
+
+
+
+
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 840px) {
+    /* Typography */
+    h1 {
+        font-size: 2em;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+    }
+
+    p {
+        font-size: 1em;
+        padding: 0 1em;
+        margin-bottom: 0.8em;
+    }
+
+    /* Navigation */
+    nav ul {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 0.5em;
+    }
+
+    nav li a {
+        padding: 10px 12px;
+        font-size: 0.9em;
+    }
+
+    nav ul {
+        font-size: 1em;
+    }
+
+    /* Images */
+    .header {
+        width: 40%;
+        padding: 2em 0;
+    }
+
+    .logo {
+        width: 3em;
+        margin: 0 0.5em;
+    }
+
+    figure {
+        height: 40vh;
+    }
+
+    /* Footer */
+    footer {
+        padding: 1em 0 0;
+        font-size: 1em;
+    }
+
+    footer ul {
+        padding-bottom: 0.5em;
+        flex-direction: row;
+        gap: 0.8em;
+    }
+
+    footer ul li {
+        margin: 0;
+    }
+
+    footer p {
+        margin: 0.3em 0;
+        font-size: 0.95em;
+        padding: 0 1em;
+    }
+
+    footer .number {
+        font-size: 24px;
+    }
+
+    /* Products */
+    .opening {
+        width: 90%;
+        gap: 1.5em;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .product_img {
+        width: 70%;
+    }
+
+    /* Button */
+    .return_home_btn {
+        padding: 10px 25px;
+        font-size: 1em;
+        margin: 1.5em auto;
+    }
+
+    /* Slideshow */
+    .slideshow-container {
+        max-width: 40%;
+    }
+
+    .dot {
+        height: 8px;
+        width: 8px;
+        margin: 0 6px;
+    }
+
+    /* Services */
+    .service_container {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .service_img {
+        width: 60%;
+    }
+    
+
+
+    .contact {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 1em;
+    }
+
+    .contact_form {
+        padding: 1em 0 0 0;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    #one {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #two {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Extra small devices */
+    h1 {
+        font-size: 1.5em;
+        margin-top: 0.3em;
+        margin-bottom: 0.8em;
+    }
+
+    p {
+        font-size: 0.9em;
+        padding: 0 0.8em;
+    }
+
+    nav ul {
+        height: auto;
+    }
+
+    nav li a {
+        padding: 8px 8px;
+        font-size: 0.8em;
+    }
+
+    .header {
+        width: 50%;
+        padding: 1em 0;
+    }
+
+    .logo {
+        width: 2.5em;
+        margin: 0 0.3em;
+    }
+
+    figure {
+        height: 30vh;
+        border-bottom-width: 8px;
+    }
+
+    footer {
+        margin-top: 1em;
+        font-size: 0.9em;
+    }
+
+    footer p {
+        font-size: 0.85em;
+        padding: 0 0.5em;
+    }
+
+    footer .number {
+        font-size: 20px;
+    }
+
+    .opening {
+        width: 95%;
+        gap: 1em;
+    }
+
+    .service_container {
+        gap: 1em;
+    }
+
+    .service_img {
+        width: 100%;
+    }
+
+    .return_home_btn {
+        padding: 8px 20px;
+        font-size: 0.9em;
+        margin: 1em auto;
+    }
 }
