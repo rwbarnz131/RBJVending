@@ -80,6 +80,24 @@ img {
 
 }
 
+.return_home_btn {
+    display: block;
+    width: fit-content;
+    margin: 2em auto;
+    background-color: rgb(255, 52, 52);
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.return_home_btn:hover {
+    background-color: rgb(235, 63, 63);
+}
+
 
 
 
@@ -169,6 +187,13 @@ footer ul a img {
     vertical-align: middle;
 }
 
+.footer_logo {
+    width: 8em;
+    height: auto;
+    margin: 0 auto 1em;
+    display: block;
+}
+
 footer p {
     margin: 0.5em 0;
     font-size: 1.2em;
@@ -245,6 +270,8 @@ footer .number {
     gap: 3em;
     padding-bottom: 2em;
     flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
 }
 
 .container {
