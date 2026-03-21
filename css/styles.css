@@ -121,13 +121,15 @@ padding: 0em;
 background-color: #d8d8d8;
 display: flex;
 justify-content: center;
-align-items: stretch;
 height: 3.5em;
 }
 
 nav li {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 150px;
     color: rgb(235, 63, 63);
 }
 
@@ -428,9 +430,19 @@ footer .number {
         gap: 0.5em;
     }
 
+    nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    color: rgb(235, 63, 63);
+    font-size: 12px;
+}
+
     nav li a {
-        padding: 10px 12px;
-        font-size: 0.9em;
+        padding: 6px 10px;
+        font-size: 1.2em;
+
     }
 
     nav ul {
@@ -565,6 +577,16 @@ footer .number {
         height: auto;
     }
 
+    nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 150px;
+    color: rgb(235, 63, 63);
+    font-size: 12px;
+}
+
     nav li a {
         padding: 8px 8px;
         font-size: 0.8em;
@@ -609,7 +631,7 @@ footer .number {
     }
 
     .service_img {
-        width: 100%;
+        width: 50%;
     }
 
     .return_home_btn {
