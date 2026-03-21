@@ -130,7 +130,7 @@ nav li {
     justify-content: center;
     width: 100%;
     max-width: 150px;
-    color: rgb(235, 63, 63);
+    color: rgb(0, 0, 0);
 }
 
 nav li a {
@@ -435,7 +435,6 @@ footer .number {
     align-items: center;
     justify-content: center;
     width: 20%;
-    color: rgb(235, 63, 63);
     font-size: 12px;
 }
 
@@ -581,10 +580,11 @@ footer .number {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto;
-    max-width: 150px;
-    color: rgb(235, 63, 63);
-    font-size: 12px;
+    width: 100%;
+    max-width: 10px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
 }
 
     nav li a {
