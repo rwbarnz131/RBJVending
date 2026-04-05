@@ -47,6 +47,9 @@ nav ul {
     color:rgb(255, 52, 52);
 }
 
+textarea::placeholder {
+  font-family: 'Arial', sans-serif;
+}
 
 
 
