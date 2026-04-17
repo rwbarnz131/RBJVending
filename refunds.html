@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refunds</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <img src="images/website logo.png" alt="RBJ Vending Logo" class="header">
+        <div class="contact">
+            <div id="refund" class="contact_container">
+                <h1>Refund Process</h1>
+                <div>
+                    <ol>
+                        <li>Fill out Online Form.</li>
+                        <li>Refund is Reviewed.</li>
+                        <li>Refund is Approved.</li>
+                        <li>Email is sent as a confirmation.</li>
+                        <li>Refund is left at the office for pickup.</li>
+                    </ol>
+                </div>
+            </div>
+            <div id="two" class="contact_container">
+                <div id="refund_form" class="contact_form">
+                    <form action="https://formsubmit.co/refunds@rbjvending.com" method="POST">
+                        <input type="text" name="name" placeholder="Enter Name" required>
+                        <input type="email" name="email" placeholder="Enter Email" required>
+                        <input type="text" name="machine_identifier" placeholder="Enter Machine Number/Identifier" required>
+                        <input type="text" name="requested_amount" placeholder="Enter Amount Amount" required>
+                        <label for="payment_method">Select Refund Method</label>
+                        <select class="method" name="payment_method" required>
+                            <option value="" selected hidden>Choose an option...</option>
+                            <option value="cash">Cash</option>
+                            <option value="card">Card</option>
+                        </select>
+                        <input type="hidden" name="_next" value="https://rbjvending.com/thanks.html">
+                        <button type="submit">Submit Form</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

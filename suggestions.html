@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestions</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <img src="images/website logo.png" alt="RBJ Vending Logo" class="header">
+        <div class="contact">
+            <div id="one" class="contact_container">
+                <h1>Suggestions/Requests</h1>
+                <p>To better serve your location, if you have a suggestion or request, please fill out the form on this page. We will do what we can to assist you, but please know that it will not be a guarenteed change as it will be based on sales in the area.</p>
+            </div>
+            <div id="two" class="contact_container">
+                <div class="contact_form">
+                    <form action="https://formsubmit.co/suggestions@rbjvending.com" method="POST">
+                        <input type="text" name="location" placeholder="Enter Location/Break Room" required>
+                        <textarea name="suggestion" placeholder="Enter suggested product or service" required></textarea>
+                        <input type="hidden" name="_next" value="https://rbjvending.com/thanks.html">
+                        <button type="submit">Submit Form</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

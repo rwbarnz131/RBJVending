@@ -375,6 +375,24 @@ footer .number {
     width: 50%;
 }
 
+#refund {
+    width: 20%;
+    text-align: left;
+}
+.method {
+    padding: 10px;
+    font-size: 18px; 
+    color: gray;
+    border: 1px solid rgb(198, 198, 198); 
+    border-radius: 4px;
+
+}
+
+#refund_form {
+    padding-bottom: 2em;
+}
+
+
 .contact_form {
     max-width: 600px;
     margin: 2em auto;
@@ -553,7 +571,7 @@ footer .number {
 
     .contact {
         flex-direction: column;
-        padding: 0;
+        padding: 0 1em;
         margin: 0;
         gap: 1em;
     }
@@ -575,6 +593,11 @@ footer .number {
         margin: 0;
         width: 100%;
     }
+
+    #refund {
+    width: 40%;
+    text-align: left;
+}
 }
 
 @media (max-width: 480px) {
@@ -676,4 +699,8 @@ footer .number {
         width: 90%;
         margin: 0 auto;
     }
+
+    #refund {
+    width: 60%;
+    text-align: left;
 }
