@@ -383,6 +383,10 @@ footer .number {
     gap: 5em;
 }
 
+#contact {
+    padding-top: 5em;
+}
+
 .contact_container{
     padding: 0;
     width: 50%;
@@ -396,12 +400,11 @@ footer .number {
 }
 
 #one {
-    width: 50%;
-    max-width: 500px;
+    width: 70%;
 }
 
 #two {
-    width: 50%;
+    width: 30%;
 }
 
 #refund {
@@ -410,13 +413,18 @@ footer .number {
     width: 50%;
     text-align: center;
     height: 360px;
-    max-width: 400px;
+    max-width: 600px;
+}
+
+.ol {
+    display: block;
+    text-align: center;
+    padding-left: 100px;
 }
 
 #refund ol {
     display: inline-block;
     text-align: left;
-    max-width: 350px;
 }
 
 .method {
@@ -662,6 +670,10 @@ ol {
     font-size: 24px;
 }
 
+.ol {
+    padding-left: 50px;
+}
+
 #header {
     width: 40%;
 }
@@ -787,6 +799,14 @@ ol {
 
 #sg {
     font-size: 24px;
+}
+
+.ol {
+    padding-left: 15px;
+}
+
+ol {
+    font-size: 18px;
 }
 
 }
