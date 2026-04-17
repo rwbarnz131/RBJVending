@@ -10,11 +10,11 @@
 
 <body>
     <main>
-        <img src="images/website logo.png" alt="RBJ Vending Logo" class="header">
+        <img src="images/website logo.png" alt="RBJ Vending Logo" id="header" class="header">
         <h1 class="refund">Refund Request</h1>
         <div class="contact">
             <div id="refund" class="contact_container">
-                <h1>Refund Process</h1>
+                <h1 id="rp">Refund Process</h1>
                 <div>
                     <ol>
                         <li>Fill out Online Form.</li>
@@ -31,7 +31,7 @@
                         <input type="text" name="name" placeholder="Enter Name" required>
                         <input type="email" name="email" placeholder="Enter Email" required>
                         <input type="text" name="machine_identifier" placeholder="Enter Machine Number/Identifier" required>
-                        <input type="text" name="requested_amount" placeholder="Enter Amount Amount" required>
+                        <input type="text" name="requested_amount" placeholder="Enter Amount"required>
                         <select class="method" name="payment_method" required>
                             <option value="" selected hidden>Select purchase method...</option>
                             <option value="cash">Cash</option>
