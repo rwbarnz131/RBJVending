@@ -11,6 +11,7 @@
 <body>
     <main>
         <img src="images/website logo.png" alt="RBJ Vending Logo" class="header">
+        <h1 class="refund">Refund Request</h1>
         <div class="contact">
             <div id="refund" class="contact_container">
                 <h1>Refund Process</h1>
@@ -26,14 +27,13 @@
             </div>
             <div id="two" class="contact_container">
                 <div id="refund_form" class="contact_form">
-                    <form action="https://formsubmit.co/refunds@rbjvending.com" method="POST">
+                    <form action="https://formsubmit.co/d506ffb33c3fa94c88a8153766194820" method="POST">
                         <input type="text" name="name" placeholder="Enter Name" required>
                         <input type="email" name="email" placeholder="Enter Email" required>
                         <input type="text" name="machine_identifier" placeholder="Enter Machine Number/Identifier" required>
                         <input type="text" name="requested_amount" placeholder="Enter Amount Amount" required>
-                        <label for="payment_method">Select Refund Method</label>
                         <select class="method" name="payment_method" required>
-                            <option value="" selected hidden>Choose an option...</option>
+                            <option value="" selected hidden>Select purchase method...</option>
                             <option value="cash">Cash</option>
                             <option value="card">Card</option>
                         </select>
